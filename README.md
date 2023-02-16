@@ -35,3 +35,5 @@
  In the above image we can see that the Algorithm restricts from entering the file. Thus the algorithm works correctly.
 
 **Data Integrity** - A very important concept of Data Integrity is followed here. In fact, in this case, an attacker has access to the data and modifies it, the digital signature verification at the receiver end fails in this algorithm, Thus, the hash of modified data and the output provided by the verification algorithm will not match the signature by this algorithm. Now, the receiver can safely deny the message assuming that data integrity has been breached for this algorithm.
+
+**Reference** - https://en.wikipedia.org/wiki/Digital_Signature_Algorithm
